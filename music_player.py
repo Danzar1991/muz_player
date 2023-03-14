@@ -206,7 +206,7 @@ class MusicPlayer:
                     image = Label(self.root, image=self.album_cover, borderwidth=0, relief="ridge")
                     image.place(x=185, y=30)
                 else:
-                    img = Image.open("C:\\Users\\User\\Desktop\\муз_плеер\\11-02-2023_18-05-49\\non_album_cover.png")
+                    img = Image.open("images\\non_album_cover.png")
                     new_img = img.resize((228, 228))
                     self.album_cover = ImageTk.PhotoImage(new_img)
                     image = Label(self.root, image=self.album_cover, borderwidth=0, relief="ridge")
